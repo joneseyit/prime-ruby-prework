@@ -1,5 +1,5 @@
 def prime?(num)
-  if num < 0 {false}
+  return false if num < 0
   test_set = (2..(num/2)).to_a
   cur_status = true
   test_set.each do |el|
